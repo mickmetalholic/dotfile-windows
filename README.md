@@ -32,7 +32,11 @@ The programming environment configurations for Windows.
     - Git
     - Shells
       - <img src="./assets/powershell.ico" width="20px"> Powershell
-        安装powershell powerline 安装powerline字体 设置权限
+        安装powershell powerline 安装powerline字体
+        Install-Module posh-git -Scope CurrentUser
+        Install-Module oh-my-posh -Scope CurrentUser
+        Install-Module PSColor
+        set-executionpolicy remotesigned
       - fish
     - <img src="https://nodejs.org/static/favicon.ico" width="20px"> node.js
     - python

@@ -30,6 +30,8 @@ The programming environment configurations for Windows.
     - Eclipse
   - Development Tools
     - Git
+      alias设置
+      用户设置
     - Shells
       - <img src="./assets/powershell.ico" width="20px"> Powershell
         安装powershell powerline 安装powerline字体

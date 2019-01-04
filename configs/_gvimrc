@@ -1,0 +1,28 @@
+set guioptions-=T
+set guioptions-=m
+set guioptions-=L
+set guioptions-=r
+set guioptions-=b
+winpos 0 0
+set lines=25 columns=108
+set autoindent
+
+set guicursor=i:ver1
+set gcr=a:block-blinkon0
+
+colorscheme onedark
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14
+
+
+" set shell=sh
+
+" Find the current line quickly.
+set cursorline
+
+let g:highlightedyank_highlight_duration = 200
+highlight HighlightedyankRegion cterm=reverse gui=reverse
+
+
+
+" fast saving
+nmap <C-s> :w!<cr>

@@ -4,71 +4,40 @@ The programming environment configurations for Windows.
 
 
 ## Softwares
-
-  - Package Control
-
+  - Package Manager
       - Chocolatey
-
       - Scoop
-
-        - ```bash
+        set 
+          ```powershell
+          scoop bucket add main
           scoop bucket add extras
           ```
 
-- System Environment Variables
+  - Terminal
+    - hyper
+      <details>
+      <summary><img src="./assets/hyper.ico" width="20px"> Hyper</summary>
+      </details>
+    - upterm
 
-  - Terminals
-    <details>
-    <summary><img src="./assets/conemu.ico" width="20px"> ConEmu</summary>
-
-    1. Installation
-
-    2. Settings
-
-
-       1. theme
-
-          https://github.com/joonro/ConEmu-Color-Themes
-
-       2. add ConEmu Here
-
-    </details>
-
-    <details>
-    <summary><img src="./assets/hyper.ico" width="20px"> Hyper</summary>
-    </details>
-
-    upterm
-
-  - Text Editors
+  - Text Editor
     - NeoVim
     - Oni
     - Atom
     - Visual Studio Code
     - brackets
 
-  - IDEs
+  - IDE
     - JetBrain
     - Visual Studio
     - Eclipse
 
-  - Development Tools
-    - GitHub
-
-    - msysgit
-      alias设置
-      用户设置
-
+  - Shell
     - <img src="./assets/powershell.ico" width="20px"> Powershell
-
         - powerline
-
         - 安装powerline字体
-
             https://github.com/powerline/fonts
-
         - https://github.com/JanDeDobbeleer/oh-my-posh
-
         - Install-Module PSColor
             set-executionpolicy remotesigned
 
@@ -77,7 +46,6 @@ The programming environment configurations for Windows.
       - yarn
       - rim-raf
       - cloc
-      - create-react-app
     - Python
     - Java
     - Ruby
@@ -88,6 +56,9 @@ The programming environment configurations for Windows.
     - Scheme
       - Chez
 
-  - Others
-
+  - Miscellaneous
     - Meld
+    - GitHub
+    - git
+      alias设置
+      用户设置

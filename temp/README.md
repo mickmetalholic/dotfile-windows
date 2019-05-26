@@ -4,7 +4,7 @@ The programming environment configurations for Windows.
 
 
 ## Softwares
-  - Package Manager
+  - 
       - Chocolatey
       - Scoop
         set 

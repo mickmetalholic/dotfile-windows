@@ -5,7 +5,7 @@ Programming environment configurations for Windows.
 
 ## :package: Package Manager
 
-### <img src="./assets/scoop.svg" width="18px" /> scoop
+#### scoop <img src="./assets/scoop.svg" width="24px"  />
 
   add main and extras buckets:
 
@@ -17,12 +17,12 @@ Programming environment configurations for Windows.
 
 ## :computer: Terminal
 
-### <img src="./assets/hyper.svg" width="18px" /> Hyper
+#### Hyper <img src="./assets/hyper.svg" width="24px" />
 
 
 ## :shell: Shell
 
-### <img src="./assets/powershell.svg" width="18px" /> Powershell
+#### Powershell <img src="./assets/powershell.svg" width="24px" />
 
   initialize configuration:
 
@@ -30,36 +30,36 @@ Programming environment configurations for Windows.
     ~\.scripts\install.ps1
     ```
 
-### <img src="./assets/git.svg" width="18px" /> Git bash
+#### Git bash <img src="./assets/git.svg" width="24px" />
 
 
 ## :pencil2: Text Editor
 
-### <img src="./assets/vim.svg" width="18px" /> Vim
-### <img src="./assets/atom.svg" width="18px" /> Atom
-### <img src="./assets/vscode.svg" width="18px" /> Visual Studio Code
+#### Vim <img src="./assets/vim.svg" width="24px" />
+#### Atom <img src="./assets/atom.svg" width="24px" />
+#### Visual Studio Code <img src="./assets/vscode.svg" width="24px" />
 
 
 ## :pencil: IDE
 
-### JetBrain
-### Anacoda
-### Visual Studio
+#### JetBrain
+#### Anacoda
+#### Visual Studio
 
 
 ## :page_with_curl: Programming Languages
 
-### <img src="./assets/node.svg" width="18px" /> node.js
-  #### TypeScript
-### <img src="./assets/node.svg" width="18px" /> Python
-### <img src="./assets/node.svg" width="18px" /> Java
-### <img src="./assets/node.svg" width="18px" /> C/C++
-  #### clang
-  #### gcc
+#### <img src="./assets/node.svg" width="18px" /> node.js
+  - TypeScript
+#### <img src="./assets/node.svg" width="18px" /> Python
+#### <img src="./assets/node.svg" width="18px" /> Java
+#### <img src="./assets/node.svg" width="18px" /> C/C++
+  - clang
+  - gcc
 
 
 ## :paperclip: Miscellaneous
 
-### <img src="./assets/node.svg" width="18px" /> Git
-### <img src="./assets/node.svg" width="18px" /> Meld
-### <img src="./assets/node.svg" width="18px" /> Fonts
+#### Git <img src="./assets/git.svg" width="24px" />
+#### <img src="./assets/node.svg" width="18px" /> Meld
+#### <img src="./assets/node.svg" width="18px" /> Fonts

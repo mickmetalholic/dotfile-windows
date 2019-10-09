@@ -5,14 +5,15 @@ Programming environment configurations for Windows.
 
 ## :package: Package Manager
 
-#### scoop <img src="./assets/scoop.svg" width="24px"  />
+<img src="./assets/scoop.svg" width="24px"  />
+#### scoop
 
   add main and extras buckets:
 
-    ```powershell
-    scoop bucket add main
-    scoop bucket add extras
-    ```
+  ```powershell
+  scoop bucket add main
+  scoop bucket add extras
+  ```
 
 
 ## :computer: Terminal
@@ -26,9 +27,9 @@ Programming environment configurations for Windows.
 
   initialize configuration:
 
-    ```powershell
-    ~\.scripts\install.ps1
-    ```
+  ```powershell
+  ~\.scripts\install.ps1
+  ```
 
 #### Git bash <img src="./assets/git.svg" width="24px" />
 
@@ -49,11 +50,11 @@ Programming environment configurations for Windows.
 
 ## :page_with_curl: Programming Languages
 
-#### <img src="./assets/node.svg" width="18px" /> node.js
+#### <img src="./assets/node.svg" width="24px" /> node.js
   - TypeScript
-#### <img src="./assets/node.svg" width="18px" /> Python
-#### <img src="./assets/node.svg" width="18px" /> Java
-#### <img src="./assets/node.svg" width="18px" /> C/C++
+#### <img src="./assets/node.svg" width="24px" /> Python
+#### <img src="./assets/node.svg" width="24px" /> Java
+#### <img src="./assets/node.svg" width="24px" /> C/C++
   - clang
   - gcc
 
@@ -61,5 +62,4 @@ Programming environment configurations for Windows.
 ## :paperclip: Miscellaneous
 
 #### Git <img src="./assets/git.svg" width="24px" />
-#### <img src="./assets/node.svg" width="18px" /> Meld
-#### <img src="./assets/node.svg" width="18px" /> Fonts
+#### <img src="./assets/node.svg" width="24px" /> Meld

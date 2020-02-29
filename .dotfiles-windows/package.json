@@ -1,0 +1,13 @@
+{
+  "name": "config-utils",
+  "version": "0.0.0",
+  "description": "Dotfiles configuration utility scripts.",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "execa": "^4.0.0",
+    "inquirer": "^7.0.5",
+    "ora": "^4.0.3"
+  }
+}

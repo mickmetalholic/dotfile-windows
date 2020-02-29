@@ -37,7 +37,7 @@
 " if has('syntax') && has('eval')
 "   packadd matchit
 " endif
-set shell=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+set shell=sh
 
 set noerrorbells
 set novisualbell

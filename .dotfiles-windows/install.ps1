@@ -21,4 +21,3 @@ function dotfiles {
 }
 dotfiles checkout
 dotfiles config --local status.showUntrackedFiles no
-dotfiles branch --set-upstream-to=origin/master master

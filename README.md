@@ -63,3 +63,5 @@ Programming environment configurations for Windows.
 
 #### Git <img src="./assets/git.svg" width="24px" />
 #### <img src="./assets/node.svg" width="24px" /> Meld
+
+https://github.com/junegunn/vim-plug

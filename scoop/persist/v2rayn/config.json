@@ -61,8 +61,7 @@
         "quicSettings": null
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": true
       }
     },
     {

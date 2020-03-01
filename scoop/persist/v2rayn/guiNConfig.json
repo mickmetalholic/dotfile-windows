@@ -1,0 +1,77 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "69.171.71.245",
+      "port": 32882,
+      "id": "eb39ccc0-11c8-4a21-a3b2-ad7111e3d15c",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "35.235.97.63",
+      "port": 23383,
+      "id": "a0db5055-faaa-423b-abdc-9eff0fa2f59f",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "listenerType": 2,
+  "urlGFWList": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": null,
+  "subItem": [],
+  "uiItem": {
+    "mainQRCodeWidth": 600
+  },
+  "userPacRule": []
+}

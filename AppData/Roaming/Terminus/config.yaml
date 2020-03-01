@@ -1,0 +1,119 @@
+hotkeys:
+  shell:
+    default:
+      - - Ctrl-T
+  toggle-window:
+    - - Ctrl-Alt-C
+  profile: {}
+ssh:
+  connections:
+    - name: Bandwagonhost
+      host: 69.171.71.245
+      port: 29746
+      user: root
+      algorithms:
+        hmac:
+          - hmac-sha2-256
+          - hmac-sha2-512
+          - hmac-sha1
+        kex:
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha1
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ssh-rsa
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+      scripts: []
+      group: null
+      privateKey: 'C:\Users\yuans\.ssh\bwh'
+    - name: Google Cloud Platform
+      group: null
+      host: 35.235.97.63
+      port: 22
+      user: yuanshenmick
+      algorithms:
+        hmac:
+          - hmac-sha2-256
+          - hmac-sha2-512
+          - hmac-sha1
+        kex:
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha1
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ssh-ed25519
+          - ssh-rsa
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+      scripts: []
+      privateKey: 'C:\Users\yuans\.ssh\gcp'
+terminal:
+  colorScheme:
+    name: Material
+    foreground: '#eceff1'
+    background: 'rgba(38, 50, 56, 1)'
+    cursor: '#FFCC00'
+    colors:
+      - '#000000'
+      - '#D62341'
+      - '#9ECE58'
+      - '#FAED70'
+      - '#396FE2'
+      - '#BB80B3'
+      - '#2DDAFD'
+      - '#d0d0d0'
+      - 'rgba(255, 255, 255, 0.2)'
+      - '#FF5370'
+      - '#C3E88D'
+      - '#FFCB6B'
+      - '#82AAFF'
+      - '#C792EA'
+      - '#89DDFF'
+      - '#ffffff'
+  font: Dejavu Sans Mono for Powerline
+  ligatures: true
+  cursorBlink: false
+  environment: {}
+  shell: powershell
+  fontSize: 18
+  profiles: []
+  bracketedPaste: false
+  autoOpen: false
+  bell: visual
+  profile: default-powershell
+  customShell: pwsh
+  background: colorScheme
+  frontend: hterm
+  recoverTabs: false
+appearance:
+  frame: thin
+  vibrancy: true
+  vibrancyType: fluent
+  opacity: 0.92
+  theme: Standard
+enableAnalytics: false
+enableWelcomeTab: false
+enableAutomaticUpdates: false

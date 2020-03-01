@@ -103,7 +103,7 @@ terminal:
   bracketedPaste: false
   autoOpen: false
   bell: visual
-  profile: default-powershell
+  profile: powershell
   customShell: pwsh
   background: colorScheme
   frontend: hterm

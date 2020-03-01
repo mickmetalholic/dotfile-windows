@@ -20,7 +20,7 @@
       "plugin": "",
       "plugin_opts": "",
       "plugin_args": "",
-      "remarks": "gcp",
+      "remarks": "Google Cloud Platform",
       "timeout": 5
     }
   ],

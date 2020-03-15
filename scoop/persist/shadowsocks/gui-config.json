@@ -1,5 +1,5 @@
 {
-  "version": "4.1.8.0",
+  "version": "4.1.9.2",
   "configs": [
     {
       "server": "69.171.71.245",
@@ -31,9 +31,11 @@
   "shareOverLan": true,
   "isDefault": false,
   "isIPv6Enabled": false,
-  "localPort": 1080,
+  "localPort": 8080,
   "portableMode": true,
+  "showPluginOutput": false,
   "pacUrl": null,
+  "gfwListUrl": null,
   "useOnlinePac": false,
   "secureLocalPac": true,
   "availabilityStatistics": false,

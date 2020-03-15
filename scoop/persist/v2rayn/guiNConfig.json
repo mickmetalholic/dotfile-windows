@@ -9,7 +9,7 @@
   ],
   "logEnabled": false,
   "loglevel": "warning",
-  "index": 0,
+  "index": 1,
   "vmess": [
     {
       "configVersion": 2,
@@ -72,5 +72,6 @@
   "subItem": [],
   "uiItem": {
     "mainQRCodeWidth": 600
-  }
+  },
+  "userPacRule": []
 }

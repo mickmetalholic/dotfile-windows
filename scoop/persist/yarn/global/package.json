@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "windows-build-tools": "^5.2.2"
+    "windows-build-tools": "^5.2.2",
+    "yarn-check": "^0.0.3"
   }
 }

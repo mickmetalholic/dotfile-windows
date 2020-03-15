@@ -72,28 +72,28 @@ ssh:
       privateKey: 'C:\Users\yuans\.ssh\gcp'
 terminal:
   colorScheme:
-    name: Material
-    foreground: '#eceff1'
-    background: 'rgba(38, 50, 56, 1)'
-    cursor: '#FFCC00'
+    name: MaterialDark
+    foreground: '#e5e5e5'
+    background: '#232322'
+    cursor: '#16afca'
     colors:
-      - '#000000'
-      - '#D62341'
-      - '#9ECE58'
-      - '#FAED70'
-      - '#396FE2'
-      - '#BB80B3'
-      - '#2DDAFD'
-      - '#d0d0d0'
-      - 'rgba(255, 255, 255, 0.2)'
-      - '#FF5370'
-      - '#C3E88D'
-      - '#FFCB6B'
-      - '#82AAFF'
-      - '#C792EA'
-      - '#89DDFF'
-      - '#ffffff'
-  font: Dejavu Sans Mono for Powerline
+      - '#212121'
+      - '#b7141f'
+      - '#457b24'
+      - '#f6981e'
+      - '#134eb2'
+      - '#560088'
+      - '#0e717c'
+      - '#efefef'
+      - '#424242'
+      - '#e83b3f'
+      - '#7aba3a'
+      - '#ffea2e'
+      - '#54a4f3'
+      - '#aa4dbc'
+      - '#26bbd1'
+      - '#d9d9d9'
+  font: Cascadia Mono PL Regular
   ligatures: true
   cursorBlink: false
   environment: {}

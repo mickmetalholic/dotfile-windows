@@ -35,11 +35,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "69.171.71.245",
-            "port": 32882,
+            "address": "35.235.97.63",
+            "port": 23383,
             "users": [
               {
-                "id": "eb39ccc0-11c8-4a21-a3b2-ad7111e3d15c",
+                "id": "a0db5055-faaa-423b-abdc-9eff0fa2f59f",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -61,7 +61,8 @@
         "quicSettings": null
       },
       "mux": {
-        "enabled": true
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {

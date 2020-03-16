@@ -1,0 +1,11 @@
+[credential]
+	helper = manager
+[core]
+	gitProxy = socks5://127.0.0.1:1080
+[https]
+	proxy = socks5://127.0.0.1:1080
+[http]
+	proxy = socks5://127.0.0.1:1080
+[user]
+	email = yuanshenmick@gmail.com
+	name = mickmetalholic
